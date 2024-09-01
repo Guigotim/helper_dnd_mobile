@@ -13,7 +13,7 @@ export default function SpellCard({ spell }: { spell: Spell }) {
     return (
         <View style={styles.spellCard}>
             <SpellTittle spellName={spell.name} spellCircle={spell.circle} spellSchool={spell.school} />
-            <Text style={styles.spellResume}>{limitResume(spell.resume)}</Text>
+            <Text style={styles.spellResume}>{limitResume(spell.shortDescription)}</Text>
         </View>
     )
 }

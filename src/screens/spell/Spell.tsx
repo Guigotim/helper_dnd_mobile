@@ -1,7 +1,5 @@
 import { Image, StyleSheet, View } from 'react-native'
-import Ionicons from '@expo/vector-icons/Ionicons'
 import { SpellStackParamList } from '../../routes/spell.routes'
-import { Spell } from '../../../mocks/fireballSpellMock'
 import { NativeStackScreenProps } from '@react-navigation/native-stack'
 import SpellDetails from '../../components/spellDetails'
 import background from '../../assets/background.jpg'
